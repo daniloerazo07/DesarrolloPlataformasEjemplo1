@@ -1,0 +1,10 @@
+{
+  "name": "desarrollo-plataformas-ejemplo-1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitio estático con validaciones de HTML, accesibilidad, adaptabilidad y seguridad para CI/CD.",
+  "scripts": {
+    "test": "node scripts/validate.js",
+    "start": "python -m http.server 8080"
+  }
+}
