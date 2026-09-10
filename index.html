@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sitio estático sobre la trayectoria y legado de Cristiano Ronaldo." />
+  <title>Cristiano Ronaldo | Legado Deportivo</title>
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#inicio">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="container header-container">
+      <a class="brand" href="#inicio" aria-label="Cristiano Ronaldo">
+        <span class="brand-mark">CR</span>
+        <span class="brand-text">
+          <span class="brand-name">Cristiano Ronaldo</span>
+          <span class="brand-subtitle">Legado</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav">
+        <a class="nav-link active" href="#inicio">Inicio</a>
+        <a class="nav-link" href="#biografia">Biografía</a>
+        <a class="nav-link" href="#trayectoria">Trayectoria</a>
+        <a class="nav-link" href="#estadisticas">Estadísticas</a>
+        <a class="nav-link" href="#galeria">Galería</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="container hero-grid">
+        <section class="hero-content">
+          <div class="hero-tag">Fútbol • Bicampeón de Europa</div>
+          <h1>Cristiano Ronaldo</h1>
+          <p class="hero-lede">
+            Un delantero que transformó la disciplina, la velocidad y la obsesión por la mejora en un estilo de juego universal.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#trayectoria">Ver trayectoria</a>
+            <a class="button button-secondary" href="#estadisticas">Estadísticas</a>
+          </div>
+          <div class="hero-proof">
+            <div>
+              <span class="proof-number">5+</span>
+              <span class="proof-label">Balones de Oro</span>
+            </div>
+            <div>
+              <span class="proof-number">700+</span>
+              <span class="proof-label">Goles en clubes</span>
+            </div>
+            <div>
+              <span class="proof-number">35+</span>
+              <span class="proof-label">Títulos</span>
+            </div>
+          </div>
+        </section>
+
+        <aside class="hero-card">
+          <div class="hero-image-wrap">
+            <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1400&q=80" alt="Campo de fútbol con luz intensa y jugadores en movimiento" class="hero-image" />
+          </div>
+          <div class="hero-card-details">
+            <span class="hero-card-label">Perfil</span>
+            <span class="hero-card-title">Delantero centro</span>
+            <span class="hero-card-text">Portugal • Real Madrid • Manchester United • Sporting • Juventus • Al Nassr</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section intro">
+      <div class="container section-grid">
+        <article class="section-intro">
+          <span class="section-kicker">Perfil</span>
+          <h2>La disciplina del máximo goleador</h2>
+          <p>
+            Cristiano Ronaldo es una referencia contemporánea del fútbol profesional. Su carrera combina velocidad, precisión en el remate,
+            liderazgo y una capacidad extraordinaria para convertir momentos decisivos en metas.
+          </p>
+        </article>
+        <div class="intro-cards">
+          <article class="mini-card">
+            <span class="mini-card-number">118</span>
+            <span class="mini-card-text">Goles internacionales</span>
+          </article>
+          <article class="mini-card">
+            <span class="mini-card-number">8</span>
+            <span class="mini-card-text">Temporadas en Champions</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section biografia" id="biografia">
+      <div class="container section-heading centered">
+        <span class="section-kicker">Biografía</span>
+        <h2>Desde Funchal hasta el mundo</h2>
+      </div>
+      <div class="container biography-grid">
+        <div class="biography-image">
+          <img src="https://images.unsplash.com/photo-1556056504-5c7696c4c28d?auto=format&fit=crop&w=1200&q=80" alt="Balón de fútbol sobre una superficie de juego" />
+        </div>
+        <article class="biography-text">
+          <p>
+            Nacido en Funchal, Madeira, en 1985, Cristiano Ronaldo dos Santos Aveiro se formó en el Sporting de Lisboa antes de dar el salto a la élite europea.
+            Su progreso fue visible desde el inicio: un extremo con fuerza, aceleración y una capacidad excepcional para marcar la diferencia en la última línea.
+          </p>
+          <p>
+            A lo largo de su carrera, Ronaldo ganó títulos con Sporting, Manchester United, Real Madrid, Juventus, Sporting CP y Al Nassr. Su carrera se caracteriza
+            por la constancia, el cuidado físico y una gran capacidad de adaptación a distintas culturas, ligas y estilos de juego.
+          </p>
+          <div class="biography-list">
+            <div>
+              <span class="list-label">Nacionalidad</span>
+              <span class="list-value">Portugal</span>
+            </div>
+            <div>
+              <span class="list-label">Posición</span>
+              <span class="list-value">Delantero</span>
+            </div>
+            <div>
+              <span class="list-label">Estilo</span>
+              <span class="list-value">Rematador, líder, ganador</span>
+            </div>
+          </div>
+          <a class="button button-outline" href="#galeria">Explorar la galería</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section timeline-section" id="trayectoria">
+      <div class="container section-heading centered">
+        <span class="section-kicker">Trayectoria</span>
+        <h2>Línea de tiempo</h2>
+        <p class="section-summary">De la formación en Madeira a la presencia global del fútbol moderno.</p>
+      </div>
+
+      <div class="container timeline">
+        <article class="timeline-item active" tabindex="0" data-year="2002">
+          <span class="timeline-year">2002</span>
+          <div class="timeline-content">
+            <span class="timeline-marker"></span>
+            <h3>Sporting CP</h3>
+            <p>Debutó como profesional en Portugal y comenzó a ser observado por grandes clubes europeos.</p>
+          </div>
+        </article>
+        <article class="timeline-item" tabindex="0" data-year="2003">
+          <span class="timeline-year">2003</span>
+          <div class="timeline-content">
+            <span class="timeline-marker"></span>
+            <h3>Manchester United</h3>
+            <p>Se consolidó en la Premier League y ganó su primera Champions League.</p>
+          </div>
+        </article>
+        <article class="timeline-item" tabindex="0" data-year="2009">
+          <span class="timeline-year">2009</span>
+          <div class="timeline-content">
+            <span class="timeline-marker"></span>
+            <h3>Real Madrid</h3>
+            <p>Se convirtió en una leyenda del club y levantó numerosos títulos internacionales.</p>
+          </div>
+        </article>
+        <article class="timeline-item" tabindex="0" data-year="2016">
+          <span class="timeline-year">2016</span>
+          <div class="timeline-content">
+            <span class="timeline-marker"></span>
+            <h3>Juventus</h3>
+            <p>Adaptó su potencia a la Serie A y continuó su carrera como gran referente.</p>
+          </div>
+        </article>
+        <article class="timeline-item" tabindex="0" data-year="2021">
+          <span class="timeline-year">2021</span>
+          <div class="timeline-content">
+            <span class="timeline-marker"></span>
+            <h3>Manchester United</h3>
+            <p>Volvió a Inglaterra para reforzar el proyecto del club y liderar un nuevo ciclo.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section stats" id="estadisticas">
+      <div class="container section-heading centered">
+        <span class="section-kicker">Estadísticas</span>
+        <h2>Producción goleadora</h2>
+      </div>
+      <div class="container stats-grid">
+        <article class="stat-card">
+          <span class="stat-card-value">900+</span>
+          <span class="stat-card-label">Goles totales</span>
+          <span class="stat-card-detail">Clubes y selección</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-card-value">34</span>
+          <span class="stat-card-label">Temporadas</span>
+          <span class="stat-card-detail">A nivel senior</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-card-value">5</span>
+          <span class="stat-card-label">Balones de Oro</span>
+          <span class="stat-card-detail">Uno de los mejores</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-card-value">150+</span>
+          <span class="stat-card-label">Goles con la selección</span>
+          <span class="stat-card-detail">Portugal</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="galeria">
+      <div class="container section-heading centered">
+        <span class="section-kicker">Galería</span>
+        <h2>Imágenes del legado</h2>
+      </div>
+      <div class="container gallery-grid">
+        <figure class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1100&q=80" alt="Campo de fútbol iluminado con una jugada intensa" />
+          <figcaption>
+            <span class="caption-title">Luz y presión</span>
+            <span class="caption-text">El juego bajo el foco de la competición.</span>
+          </figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1556056504-5c7696c4c28d?auto=format&fit=crop&w=1100&q=80" alt="Balón colocado sobre el césped con una mirada de juego" />
+          <figcaption>
+            <span class="caption-title">Ritmo y precisión</span>
+            <span class="caption-text">La pelota y el juego ofensivo al servicio del gol.</span>
+          </figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1521417531038-e1e3094f1edc?auto=format&fit=crop&w=1100&q=80" alt="Partido de fútbol con jugadores corriendo y campo verde" />
+          <figcaption>
+            <span class="caption-title">Tiempo decisivo</span>
+            <span class="caption-text">La intensidad del fútbol de alto nivel.</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section quote">
+      <div class="container quote-card">
+        <span class="quote-icon">“</span>
+        <blockquote>
+          “La diferencia entre un gran jugador y uno extraordinario está en la capacidad de asumir la preparación como una forma de vida.”
+        </blockquote>
+        <span class="quote-author">Cristiano Ronaldo</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand footer-logo" href="#inicio" aria-label="Cristiano Ronaldo">
+          <span class="brand-mark">CR</span>
+          <span class="brand-text">
+            <span class="brand-name">Cristiano Ronaldo</span>
+            <span class="brand-subtitle">Legado</span>
+          </span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <a href="#biografia">Biografía</a>
+        <a href="#trayectoria">Trayectoria</a>
+        <a href="#estadisticas">Estadísticas</a>
+        <a href="#galeria">Galería</a>
+      </div>
+      <div class="footer-copy">
+        <span>© 2026 Legado Deportivo</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+</html>
